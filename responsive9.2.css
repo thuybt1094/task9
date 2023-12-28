@@ -1,0 +1,56 @@
+@media screen and (max-width: 968px) {
+  .right-content h5 {
+    font-size: 44px;
+  }
+
+  .right-content p {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .main-tittle {
+    flex-direction: column;
+    position: absolute;
+    top: 120px;
+    left: 30px;
+    font-size: 20px;
+    gap: 20px;
+  }
+
+  .right-content h5 {
+    font-size: 36px;
+    margin-bottom: 16px;
+  }
+
+  .right-content p {
+    font-size: 18px;
+  }
+
+  .about-us {
+    height: 300px;
+    margin: 10px 0px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .about-us {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .left-content {
+    width: 100%;
+    height: 450px;
+  }
+
+  .right-content {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .right-content h5 {
+    margin-bottom: 10px;
+  }
+}
