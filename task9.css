@@ -65,12 +65,11 @@ body {
   line-height: normal;
   font-style: normal;
   font-weight: 700;
-  color: #fff;
   font-family: "Kaisei Decol", serif;
   margin: 40px 0px;
 }
 
-.left-content {
+.about-us .left-content {
   background-image: url("about-us-image.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -99,4 +98,58 @@ body {
 
 .right-content p {
   font-size: 30px;
+  color: #fff;
+
+}
+
+.discount-programs {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 40px;
+  gap: 2%;
+}
+
+.discount-programs .left-content {
+  background-image: url("discount-image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 33.33%;
+  height: 355px;
+}
+
+.discount-programs .right-content {
+  width: 66.67%;
+  height: 355px;
+}
+
+.discount-programs h5 {
+text-align: center;
+font-family: 'Italiana', sans-serif;
+font-size: 64px;
+font-weight: 400;
+margin-bottom: 15px;
+}
+
+.discount-programs p {
+text-align: center;
+font-family: 'Jost', sans-serif;
+font-size: 32px;
+font-weight: 400;
+margin-bottom: 35px;
+margin-left: 15%;
+margin-right: 15%;
+}
+
+.discount-programs button {
+  width: 227px;
+  height: 57px;
+  border-radius: 20px;
+  border: 2px solid #68763F;
+  background: rgba(255, 255, 255, 0.80);
+  color: #383F26;
+  text-align: center;
+  font-family: 'Jost', sans-serif;
+  font-size: 32px;
+  font-weight: 400;
 }
