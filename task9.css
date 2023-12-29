@@ -19,6 +19,7 @@ body {
   flex-direction: column;
   align-items: center;
   position: relative;
+  gap: 24px;
 }
 
 .logo-name {
@@ -233,4 +234,22 @@ textarea {
   right: 46px;
   bottom: 58px;
 }
- 
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.footer .main-tittle {
+  color: #9CAB70;
+  margin-bottom: 23px;
+  height: auto;
+}
+
+.channel {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}

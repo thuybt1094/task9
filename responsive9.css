@@ -17,11 +17,25 @@
 }
 
 @media screen and (max-width: 640px) {
-  .main-tittle {
+  /* .header .main-tittle {
     flex-direction: column;
     position: absolute;
     top: 120px;
     left: 30px;
+    font-size: 20px;
+    gap: 20px;
+  }
+
+  .footer .main-tittle {
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    gap: 20px;
+  } */
+
+  .main-tittle {
+    flex-direction: column;
+    align-items: center;
     font-size: 20px;
     gap: 20px;
   }
@@ -38,6 +52,10 @@
   .about-us {
     height: 300px;
     margin: 10px 0px;
+  }
+
+  .contact-form {
+    width: 100%;
   }
 }
 
@@ -85,7 +103,5 @@
     font-size: 24px;
   }
 
-  .contact-form {
-    width: 100%;
-  }
+
 }
